@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mecânica Gurisão Tec</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Biblioteca de animação -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+  <canvas id="bg"></canvas>
+
+  <div class="container">
+    
+    <!-- TEXTO -->
+    <div class="left">
+      <h1 id="titulo">
+        Mecanica <br>
+        Gurisão <br>
+        Tec
+      </h1>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="login-box" id="card">
+      <h2>Login:</h2>
+
+      <input type="text" id="usuario" placeholder="Usuário">
+      <input type="password" id="senha" placeholder="Senha">
+
+      <p class="forgot" onclick="esqueceuSenha()">Esqueceu sua senha?</p>
+
+      <button onclick="login()">ENTRAR</button>
+
+      <p class="register" onclick="registrar()">Registrar-se</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
